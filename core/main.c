@@ -2,6 +2,16 @@
  * SPDX-FileCopyrightText: 2010-2022 Espressif Systems (Shanghai) CO LTD
  *
  * SPDX-License-Identifier: CC0-1.0
+ *
+ *	@section 	Opens
+ *		complete port of original proj
+ *		- build\
+ *		- lbr\
+ *		vscode proj
+ *		style
+ *			main.c
+ *			CMakeLists.txt (both!)
+ *		...! :)
  */
 
 #include <stdio.h>

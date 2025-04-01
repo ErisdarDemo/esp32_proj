@@ -17,4 +17,21 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>com.espressif.idf.core.idfNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>core</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>core/CMakeLists.txt</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/core/CMakeLists.txt</locationURI>
+		</link>
+		<link>
+			<name>core/main.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/core/main.c</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
