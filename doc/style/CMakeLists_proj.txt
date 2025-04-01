@@ -3,8 +3,8 @@
  #  @brief    Project Description
  #  @details  x
  #
- #  @section 	Detail
- #		Standard cmake components for compile
+ #  @section    Detail
+ #      Standard cmake components for compile
  #
 ####################################################################################################
 cmake_minimum_required(VERSION 3.16)
@@ -13,8 +13,8 @@ cmake_minimum_required(VERSION 3.16)
 set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_LIST_DIR}/../core)
 
 # Root Cmake Config 
-include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+include($ENV{}/tools/cmake/project.cmake)
 
 # PROJECT_NAME
-project(esp32_proj)
+project(proj_name)
 

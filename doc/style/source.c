@@ -1,11 +1,11 @@
 /**************************************************************************************************/
-/** @file     source.c
- *  @brief    x
- *  @details  x
+/** @file       source.c
+ *  @brief      x
+ *  @details    x
  *
- *  @author   Justin Reina, Firmware Engineer
- *  @created  2/3/25
- *  @last rev 2/3/25
+ *  @author     Justin Reina, Firmware Engineer
+ *  @created    2/3/25
+ *  @last rev   4/5/25
  *
  *  @note   Private functions & variables are declared static
  *
@@ -13,7 +13,7 @@
  *      none current
  *
  *  @section    Legal Disclaimer
- *      Â©2025 Justin Reina. All rights reserved. All contents of this source file and/or any other
+ *      ©2025 Justin Reina, All rights reserved. All contents of this source file and/or any other
  *      related source files are the explicit property of Justin Reina. Do not distribute.
  *      Do not copy.
  */
@@ -25,7 +25,7 @@
 //************************************************************************************************//
 
 //Standard Library Includes
-
+#include <stdlib.h>
 
 //Library Includes
 
@@ -65,7 +65,7 @@
 //************************************************************************************************//
 
 /**************************************************************************************************/
-/** @fcn        int main(void)
+/** @fcn        int main_routine(void)
  *  @brief      x
  *  @details    x
  *
@@ -100,7 +100,7 @@
  *  @note   x
  */
 /**************************************************************************************************/
-int main(void) {
+int main_routine(void) {
 
     //Locals
 
@@ -112,11 +112,12 @@ int main(void) {
 
 
 
-	return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
 
 
 //************************************************************************************************//
 //                                         PRIVATE FUNCTIONS                                      //
 //************************************************************************************************//
+
 

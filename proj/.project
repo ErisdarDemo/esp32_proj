@@ -19,7 +19,17 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>README.md</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/README.md</locationURI>
+		</link>
+		<link>
 			<name>core</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>lbr</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
@@ -32,6 +42,26 @@
 			<name>core/main.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/core/main.c</locationURI>
+		</link>
+		<link>
+			<name>core/main.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/core/main.h</locationURI>
+		</link>
+		<link>
+			<name>lbr/CMakeLists.txt</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lbr/CMakeLists.txt</locationURI>
+		</link>
+		<link>
+			<name>lbr/utils.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lbr/utils.c</locationURI>
+		</link>
+		<link>
+			<name>lbr/utils.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lbr/utils.h</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
