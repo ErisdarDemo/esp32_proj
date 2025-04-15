@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"name": "proj",
+			"path": "."
+		},
+		{
+			"name": "doc",
+			"path": "../doc"
+		},
+		{
+			"name": "lbr",
+			"path": "../lbr"
+		},
+		{
+			"name": "core",
+			"path": "../core"
+		}
+	],
+	"settings": {
+		"window.title": "esp32_proj",
+		"files.associations": {
+			"task.h": "c",
+			"freertos.h": "c",
+			"sdkconfig.h": "c",
+			"esp_chip_info.h": "c",
+			"stdio.h": "c",
+			"esp_flash.h": "c",
+			"stdbool.h": "c",
+			"esp_system.h": "c",
+			"utils.h": "c"
+		},
+	}
+}
