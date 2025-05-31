@@ -36,7 +36,7 @@
 		<link>
 			<name>core/main.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/core/hello_world_main.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/core/main.c</locationURI>
 		</link>
 		<link>
 			<name>lbr/.vscode</name>
