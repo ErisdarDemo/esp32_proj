@@ -39,6 +39,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/core/main.c</locationURI>
 		</link>
 		<link>
+			<name>core/main.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/core/main.h</locationURI>
+		</link>
+		<link>
 			<name>lbr/.vscode</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>

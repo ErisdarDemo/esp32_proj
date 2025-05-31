@@ -5,12 +5,11 @@
  *
  *  @author   Justin Reina, Firmware Engineer
  *  @created  5/30/25
- *  @last rev 5/30/25
+ *  @last rev 5/30/25 'v0'
  *
  *  @section    Opens
- *		style
- *      vs code workspace & .vscode\
- *		ide warnings clean (espressif-ide & vs-code) *
+ *		unknown argument false report (Espressif-IDE)
+ *
  *  @section    Legal Disclaimer
  *      SPDX-FileCopyrightText: 2010-2022 Espressif Systems (Shanghai) CO LTD
  *
@@ -38,7 +37,7 @@
 #include "esp_system.h"
 
 //Project Includes
-#include "utils.h"
+#include "main.h"
 
 
 //************************************************************************************************//
@@ -78,22 +77,19 @@ void app_main(void) {
 	
 	
 	//Notify
-    printf("Hello world!\n");
+    printf("\n\nHello world!\n");
 
 	//Check
     esp_chip_info(&chip_info);
     
-	printf("This is %s chip with %d CPU core(s), %s%s%s%s\n, ",
+	printf("This is %s chip with %d CPU core(s), %s%s%s%s, ",
            CONFIG_IDF_TARGET,
            chip_info.cores,
            (chip_info.features & CHIP_FEATURE_WIFI_BGN)   ? "WiFi/" : "",
            (chip_info.features & CHIP_FEATURE_BT)         ? "BT" : "",
            (chip_info.features & CHIP_FEATURE_BLE)        ? "BLE" : "",
            (chip_info.features & CHIP_FEATURE_IEEE802154) ? ", 802.15.4 (Zigbee/Thread)" : "");
-	
-    //Demo
-    utils_test_fcn();
-		   
+			   
     unsigned major_rev = chip_info.revision / 100;
     unsigned minor_rev = chip_info.revision % 100;
 	
@@ -117,7 +113,9 @@ void app_main(void) {
 
     printf("Minimum free heap size: %" PRIu32 " bytes\n", esp_get_minimum_free_heap_size());
 
-	
+	//Demo
+    utils_test_fcn();
+
 	//Loop
     for (int i = 10; i >= 0; i--) {
 		
@@ -130,7 +128,7 @@ void app_main(void) {
 	
 	
 	//Notify
-    printf("Restarting now.\n");
+    printf("Restarting now.\n\n\n\n");
 	
 	ESP_LOGI(TAG, "Demo complete");
 	
