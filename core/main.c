@@ -2,6 +2,14 @@
  * SPDX-FileCopyrightText: 2010-2022 Espressif Systems (Shanghai) CO LTD
  *
  * SPDX-License-Identifier: CC0-1.0
+ *
+ *	@section 	Opens
+ *		style
+ *		demo
+ *		errors display clean
+ *      vs code workspace & .vscode\
+ *		esp_idf demos content sync
+ *		ide warnings clean (espressif-ide & vs-code)
  */
 
 #include <stdio.h>
@@ -12,6 +20,10 @@
 #include "esp_chip_info.h"
 #include "esp_flash.h"
 #include "esp_system.h"
+
+//Project Includes
+#include "utils.h"
+
 
 void app_main(void)
 {
@@ -29,6 +41,9 @@ void app_main(void)
            (chip_info.features & CHIP_FEATURE_BLE) ? "BLE" : "",
            (chip_info.features & CHIP_FEATURE_IEEE802154) ? ", 802.15.4 (Zigbee/Thread)" : "");
 
+    //Demo
+    utils_test_fcn();
+		   
     unsigned major_rev = chip_info.revision / 100;
     unsigned minor_rev = chip_info.revision % 100;
     printf("silicon revision v%d.%d, ", major_rev, minor_rev);
