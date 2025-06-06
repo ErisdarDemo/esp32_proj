@@ -6,6 +6,9 @@
  #  @section    Detail
  #      Standard cmake components for compile
  #
+ #  @section    Reference
+ #      1. https://github.com/espressif/esp-idf/issues/10568
+ #
 ####################################################################################################
 cmake_minimum_required(VERSION 3.16)
 
@@ -18,3 +21,5 @@ include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 # PROJECT_NAME
 project(esp32_proj)
 
+# BUG [1]
+set_source_files_properties(${CMAKE_SOURCE_DIR}/components/esp_lcd/rgb/esp_lcd_panel_rgb.c PROPERTIES HEADER_FILE_ONLY TRUE)

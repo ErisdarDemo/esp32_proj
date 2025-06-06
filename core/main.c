@@ -62,7 +62,7 @@ static const char* TAG = "esp32_proj";
 //                                       FUNCTION DECLARATIONS                                    //
 //************************************************************************************************//
 
-//Versio API
+//Version API
 static char *proj_getVersion(void);
 
 
