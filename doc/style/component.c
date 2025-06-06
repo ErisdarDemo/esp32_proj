@@ -314,8 +314,8 @@ int component_getState(void) {
 
 /**************************************************************************************************/
 /** @fcn        void component_setState(int val)
- *  @brief      Apply current operational state
- *  @details    e.g. output values
+ *  @brief      Update operational state with new value
+ *  @details    e.g. output values or component config
  *
  *  @param    [in]  (int) val - update component value to set
  *

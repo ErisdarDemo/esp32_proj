@@ -320,8 +320,8 @@ int driver_getState(void) {
 
 /**************************************************************************************************/
 /** @fcn        void driver_setState(int val)
- *  @brief      Apply current operational state
- *  @details    e.g. output values
+ *  @brief      Update operational state with new value
+ *  @details    e.g. output values or peripheral config
  *
  *  @param    [in]  (int) val - update driver value to set
  *
